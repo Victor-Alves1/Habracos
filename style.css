@@ -69,34 +69,35 @@ header{
     text-decoration: none;
     color: #FEA002;
 }
-.inlinha{
+.espaco{
+    width: 600vw;
+    display: flex;
+    overflow: hidden;
+    
+}
+.slide{
+    width: 100vw;
+    position: relative;
+    left: 50vw;
+    transform: translate(-25%, 0%);
+    overflow: hidden;
+}
+.navigation{
     display: flex;
     justify-content: center;
-    background-color: white;
-    margin: 0px 5% 40px 5%;
-    border-radius: 20px ;
-    padding: 20px;
-    /* IGUAL */
 }
-.seta{
-    display: block;
-    margin: auto -20px;
-    height: 150px;
-    width: 150px;
+.bar{
+    border: 3px solid #FFD70A;
+    width: 70px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.4s;
 }
-.inverter{
-    transform: scaleX(-1);
-}
-.galeria{
-    display: flex;
-}
-.galeria li{
-    list-style: none;
-    margin: 0px 10px;
-}
-.galeria picture,
-.galeria img{
-    width: 100%;
+.bar:hover{
+    background-color: #ffd60a80;
 }
 main{
     background-color: white;
