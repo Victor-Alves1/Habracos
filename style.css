@@ -81,6 +81,25 @@ header{
     left: 50vw;
     transform: translate(-25%, 0%);
     overflow: hidden;
+    transition: 0.6s;
+}
+.slide1:checked ~ .s1{
+    margin-left: 0;
+}
+.slide2:checked ~ .s1{
+    margin-left: 16,66%;
+}
+.slide3:checked ~ .s1{
+    margin-left: 33,33%;
+}
+.slide4:checked ~ .s1{
+    margin-left: 49,99%;
+}
+.slide5:checked ~ .s1{
+    margin-left: 66,66%;
+}
+.slide6:checked ~ .s1{
+    margin-left: 83,33%;
 }
 .navigation{
     display: flex;
