@@ -6,11 +6,6 @@
         color: #FF630A;
         */
         
-        /*<li><a href="#"><img src="galeria/imagem2.jpeg" alt=""></a></li>
-            <li><a href="#"><img src="galeria/imagem3.jpeg" alt=""></a></li>
-            <li><a href="#"><img src="galeria/imagem4.jpeg" alt=""></a></li>
-            <li><a href="#"><img src="galeria/imagem5.jpeg" alt=""></a></li>
-            <li><a href="#"><img src="galeria/imagem6.jpeg" alt=""></a></li>*/
 @font-face {
     font-family: "gothic";
     src: url(GOTHIC.TTF);
@@ -54,7 +49,7 @@ header{
     margin: 0px 5% 40px 5%;
     border-radius: 20px ;
     padding: 20px;
-    /* IGUAL */
+    /* IGUAL AO MAIN*/
 }
 .flex1{
     display: flex;
@@ -79,7 +74,7 @@ main{
     margin: 0px 5% 40px 5%;
     border-radius: 20px ;
     padding: 20px;
-    /* IGUAL */ 
+    /* IGUAL AO HEADER*/ 
 }
 main h1{
     text-align: center;
@@ -163,11 +158,11 @@ main h3{
     justify-content: center;
 }
 .bar{
-    border: 3px solid #FFD70A;
-    width: 70px;
-    height: 20px;
-    margin: 0px 5px 20px 5px;
-    border-radius: 5px;
+    border: 4px solid #FEA002;
+    width: 80px;
+    height: 30px;
+    margin: 0px 8px 20px 8px;
+    border-radius: 8px;
     display: inline-block;
     cursor: pointer;
     transition: 0.4s;
@@ -194,15 +189,17 @@ footer a{
     text-decoration: none;
 }
 @media(max-width: 1100px){
-.galeria{
+    .galeria{
     display: grid;
     grid-template-columns: 1fr;
-}    
+    }    
+}
+@media(max-width: 900px){
+    .flex1{
+        display: block;
+    }
 }
 @media(max-width: 800px){
-    .seta{
-        display: none;
-    }
     .container, .container2, footer{
         grid-template-columns: 1fr;
         text-align: center;
@@ -213,5 +210,11 @@ footer a{
     }
     .container2 h3{
         text-align: center;
+    }
+    .slide img{
+        width: 80%;
+    }
+    .alin {
+        top: 2px;
     }
 }
