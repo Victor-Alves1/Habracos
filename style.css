@@ -38,6 +38,9 @@ body{
     background-color: #FFD70A;
     position: fixed;
 }
+.agendamento-alternativo{
+    display: none;
+}
 .logo{
     padding-top: 45px;
     width: 100%;
@@ -47,7 +50,7 @@ body{
 header{
     background-color: white;
     margin: 0px 5% 40px 5%;
-    border-radius: 20px ;
+    border-radius: 0px 0px 20px 20px ;
     padding: 20px;
     /* IGUAL AO MAIN*/
 }
@@ -216,5 +219,23 @@ footer a{
     }
     .alin {
         top: 2px;
+    }
+    header{
+        padding-top: 40px;
+    }
+    .agendamento{
+        display: none;
+    }
+    .agendamento-alternativo{
+        display: flex;
+        position: absolute;
+        justify-content: space-around;
+        width: 100%;
+        background-color: #FFD70A;
+        padding: 8px;
+    }
+    .agendamento-alternativo img{
+        width: 35px;
+        padding-top: 4px;
     }
 }
