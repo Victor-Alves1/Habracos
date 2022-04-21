@@ -232,10 +232,13 @@ footer a{
         justify-content: space-around;
         width: 100%;
         background-color: #FFD70A;
-        padding: 8px;
+        padding: 8px 0px;
     }
     .agendamento-alternativo img{
         width: 35px;
         padding-top: 4px;
+    }
+    .wrap{
+        word-wrap: break-word;
     }
 }
