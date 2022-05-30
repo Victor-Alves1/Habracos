@@ -5,6 +5,11 @@ A **Habraços Psicologia e Saúde** foi um desafio pessoal de construir um site 
 A Habraços é um centro com varias abordagens que tem como foco a saúde psicologica dos individuos.
 O site é completamente responsivo, os links, endereços, telefones, informações são 100% fieis a instituição de saúde encontrada em Recife-PE.
 
+Foram utilizados na construção desse site:
+
+![icons8-html-5-48](https://user-images.githubusercontent.com/101835324/165111872-1db50d31-ff08-4c68-8f8d-372172a3e58d.png)
+![icons8-css3-48](https://user-images.githubusercontent.com/101835324/165111999-a12764fb-a618-4c85-9fc1-8a9fd68e4db0.png)
+
 ## Foto do site em uma tela de computador
 ![image](https://user-images.githubusercontent.com/101835324/164501222-d2721459-1af6-4bfc-9e8e-3403da2eb366.png)
 
